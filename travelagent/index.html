@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-text">TravelAgentKu</div>
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#our-package">Paket Kami</a>
+            <a href="#contact">Hubungi Kami</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="hero">
+            <h1>Kebahagiaan Anda adalah Kebahagiaan Kami</h1>
+            <p>Liburan jadi menyenangkan bersama Travel Agentku</p>
+        </div>
+        <div class="content">
+            <div class="image-container">
+                <div class="slideshow-container">
+                    <img src="https://picsum.photos/600/300?random=1" alt="Gambar Acak 1">
+                    <img src="https://picsum.photos/600/300?random=2" alt="Gambar Acak 2">
+                    <img src="https://picsum.photos/600/300?random=3" alt="Gambar Acak 3">
+                </div>
+                <div class="testimonial" id="testimonial">
+                    <p>"Memuat testimoni..."</p>
+                </div>
+            </div>
+            <div class="form-container">
+                <h2>Hubungi Kami</h2>
+                <h4>Tim kami akan menghubungi Anda dalam waktu 1x24 jam</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nama Anda:</label>
+                        <input type="text" id="name" placeholder="Nama depan dan belakang">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Alamat Email:</label>
+                        <input type="email" id="email" placeholder="contoh@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="interest">Apa yang Anda minati?</label>
+                        <select id="interest">
+                            <option>Pilih Paket</option>
+                            <option>Paket 1</option>
+                            <option>Paket 2</option>
+                            <option>Paket 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" onclick="submitForm()">Kirim</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="info">
+            <h3>Manfaat Layanan Kami</h3>
+            <p><i class="fa-solid fa-sun"></i> <strong>Pengalaman Perjalanan yang Tak Terlupakan</strong> - Nikmati destinasi yang menakjubkan dan petualangan yang unik.</p>
+            <p><i class="fa-solid fa-tags"></i> <strong>Paket Terjangkau dan Fleksibel</strong> - Paket yang disesuaikan dengan anggaran dan preferensi Anda.</p>
+            <p><i class="fa-solid fa-headset"></i> <strong>Dukungan Pelanggan 24/7</strong> - Kami di sini untuk membantu Anda kapan saja, memastikan pengalaman perjalanan yang lancar.</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
